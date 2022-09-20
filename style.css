@@ -77,7 +77,23 @@ body {
     display: block;
     text-align: center;
     margin-bottom: 50px;
-    font-family: comic-sans, sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
     color: rgba(50, 168, 160);
 
 }
+
+.body-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pop-up {
+    min-width: 250px;
+    min-height: 100px;
+    background-color: white;
+
+}
+
