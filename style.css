@@ -110,4 +110,20 @@ body {
     text-align: center;
     padding: 10px;
 }
+/* sindico */
+
+#sindico-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sindico-form textarea {
+    margin: 10px;
+}
+
+
+
+/* area de lazer */
 

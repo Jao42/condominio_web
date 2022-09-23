@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale com o síndico</title>
 </head>
-<body>
-    
+<body class="body-info">
+    <div class="pop-up">
+    <form action="" id="sindico-form">
+        <label for="nome">Nome: </label><input type="text"><br>
+        <label for="cpf">CPF: </label><input type="text"><br>
+        <label for="mensagem">Mensagem: </label><br>
+        <textarea name="mensagem" rows="10" cols="50" placeholder="Digite o que você quer falar com o síndico aqui"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    </div>
 </body>
 </html>
