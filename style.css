@@ -82,18 +82,32 @@ body {
     color: rgba(50, 168, 160);
 
 }
-
+/*informacoes_importantes*/
 .body-info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
 
 }
 
 .pop-up {
-    min-width: 250px;
-    min-height: 100px;
+    display: block;
+    min-width: 500px;
+    min-height: 500px;
     background-color: white;
+    border-radius: 10px;
 
+}
+.pop-up ul {
+    margin: 10px;
+    list-style-position: inside;
+    display: flex;
+    justify-content: center;
+    }
+.h1-avisos {
+    text-align: center;
+    padding: 10px;
 }
 
