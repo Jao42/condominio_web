@@ -165,4 +165,12 @@ body {
 
 
 /* area de lazer */
+#pop-up-lazer {
+    background-color: inherit;
+
+}
+
+.foto-lazer {
+    margin-bottom: 10px;
+}
 
