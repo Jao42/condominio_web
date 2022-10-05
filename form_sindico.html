@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +13,14 @@
 <body class="body-info">
     <div class="pop-up">
     <form action="" id="sindico-form">
-        <label for="nome">Nome: </label><input type="text"><br>
-        <label for="cpf">CPF: </label><input type="text"><br>
-        <label for="mensagem">Mensagem: </label><br>
+        <label for="nome">NOME</label>
+        <input name="nome" type="text"><br>
+        <label for="cpf">CPF</label>
+        <input name="cpf" type="text"><br>
+        <label for="mensagem">MENSAGEM</label>
         <textarea name="mensagem" rows="10" cols="50" placeholder="Digite o que você quer falar com o síndico aqui"></textarea>
         <button type="submit">Enviar</button>
+        <a class="voltar" href="./index.html"> &lt- Voltar </a>
     </form>
     </div>
 </body>
